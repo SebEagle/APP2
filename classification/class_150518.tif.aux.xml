@@ -21,5 +21,21 @@
       <Category>5124_2</Category>
       <Category>5130</Category>
     </CategoryNames>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.5277777777777778</HistMin>
+        <HistMax>18.47222222222222</HistMax>
+        <BucketCount>18</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>512559|165960|837416|259011|73973|1444088|444912|5972429|6810706|28935|492253|38738|269780|37894|1615887|1327|548349|1810</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">18</MDI>
+      <MDI key="STATISTICS_MEAN">8.6642357877707</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">3.1849469084066</MDI>
+    </Metadata>
   </PAMRasterBand>
 </PAMDataset>

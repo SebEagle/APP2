@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.0.2-Girona">
+<qgis version="3.0.2-Girona" projectname="">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -18,30 +18,34 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer id="class_150518_cadb6330_af9b_465a_bd3d_de86154c562e" source="./classification/class_150518.tif" providerKey="gdal" name="class_150518" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer id="class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e" expanded="0" source="./classification/class_160518.tif" providerKey="gdal" name="class_160518" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" source="./shapefiles/training_data_git.shp" providerKey="ogr" name="training_data_git" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="class_150518_cadb6330_af9b_465a_bd3d_de86154c562e" expanded="0" source="./classification/class_150518.tif" providerKey="gdal" name="class_150518" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" expanded="1" source="./shapefiles/training_data_git.shp" providerKey="ogr" name="training_data_git" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6</item>
       <item>class_150518_cadb6330_af9b_465a_bd3d_de86154c562e</item>
+      <item>class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings mode="2" enabled="0" unit="1" type="1" tolerance="12" intersection-snapping="0">
+  <snapping-settings enabled="0" intersection-snapping="0" tolerance="12" unit="1" type="1" mode="2">
     <individual-layer-settings>
-      <layer-setting units="1" id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" enabled="1" type="1" tolerance="12"/>
+      <layer-setting enabled="1" id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" units="1" tolerance="12" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>195180.08020475707598962</xmin>
-      <ymin>3504546.43262825533747673</ymin>
-      <xmax>316050.53122082573827356</xmax>
-      <ymax>3605638.08256874606013298</ymax>
+      <xmin>193677.02796414261683822</xmin>
+      <ymin>3488513.87539503583684564</ymin>
+      <xmax>314547.47898021130822599</xmax>
+      <ymax>3589605.52533552655950189</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -59,14 +63,19 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" checked="Qt::Checked" name="class_150518">
+    <legendlayer open="false" showFeatureCount="0" drawingOrder="-1" name="class_160518" checked="Qt::Checked">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="class_150518_cadb6330_af9b_465a_bd3d_de86154c562e" visible="1"/>
+        <legendlayerfile visible="1" layerid="class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" checked="Qt::Checked" name="training_data_git">
+    <legendlayer open="false" showFeatureCount="0" drawingOrder="-1" name="class_150518" checked="Qt::Checked">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile visible="1" layerid="class_150518_cadb6330_af9b_465a_bd3d_de86154c562e" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" name="training_data_git" checked="Qt::Checked">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" visible="1"/>
+        <legendlayerfile visible="1" layerid="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -141,7 +150,7 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <projectlayers>
-    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer maxScale="0" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -184,11 +193,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial dimensions="2" maxx="0" maxy="0" miny="0" crs="" minx="0" minz="0" maxz="0"/>
+          <spatial maxz="0" dimensions="2" minx="0" miny="0" minz="0" maxx="0" maxy="0" crs=""/>
           <temporal>
             <period>
               <start></start>
@@ -208,10 +217,10 @@
         <links/>
       </resourceMetadata>
       <customproperties>
-        <property key="WMSBackgroundLayer" value="false"/>
-        <property key="WMSPublishDataSourceUrl" value="false"/>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="identify/format" value="Value"/>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
       </customproperties>
       <provider>gdal</provider>
       <noData>
@@ -221,7 +230,7 @@
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" opacity="1" type="paletted" band="1">
+        <rasterrenderer alphaBand="-1" band="1" opacity="1" type="paletted">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -232,35 +241,151 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry color="#db0247" alpha="255" value="1" label="11"/>
-            <paletteEntry color="#db0247" alpha="255" value="2" label="11L"/>
-            <paletteEntry color="#7b7e7b" alpha="255" value="3" label="122"/>
-            <paletteEntry color="#000000" alpha="255" value="4" label="124"/>
-            <paletteEntry color="#51ff48" alpha="255" value="5" label="141"/>
-            <paletteEntry color="#f1f430" alpha="255" value="6" label="2"/>
-            <paletteEntry color="#bd7d1c" alpha="255" value="7" label="32"/>
-            <paletteEntry color="#e1e8a0" alpha="255" value="8" label="33"/>
-            <paletteEntry color="#d5b483" alpha="255" value="9" label="33_2"/>
-            <paletteEntry color="#029400" alpha="255" value="10" label="411"/>
-            <paletteEntry color="#029400" alpha="255" value="11" label="411_2"/>
-            <paletteEntry color="#ffffff" alpha="255" value="12" label="5113"/>
-            <paletteEntry color="#adeab6" alpha="255" value="13" label="5113_1"/>
-            <paletteEntry color="#8ad77a" alpha="255" value="14" label="5113_2"/>
-            <paletteEntry color="#b9d37f" alpha="255" value="15" label="5113_3"/>
-            <paletteEntry color="#002ad3" alpha="255" value="16" label="5124"/>
-            <paletteEntry color="#9baee4" alpha="255" value="17" label="5124_2"/>
-            <paletteEntry color="#7707ff" alpha="255" value="18" label="5130"/>
-            <paletteEntry color="#ffffff" alpha="255" value="19" label="19"/>
+            <paletteEntry value="1" color="#db0247" alpha="255" label="11"/>
+            <paletteEntry value="2" color="#db0247" alpha="255" label="11L"/>
+            <paletteEntry value="3" color="#7b7e7b" alpha="255" label="122"/>
+            <paletteEntry value="4" color="#000000" alpha="255" label="124"/>
+            <paletteEntry value="5" color="#51ff48" alpha="255" label="141"/>
+            <paletteEntry value="6" color="#f1f430" alpha="255" label="2"/>
+            <paletteEntry value="7" color="#bd7d1c" alpha="255" label="32"/>
+            <paletteEntry value="8" color="#e1e8a0" alpha="255" label="33"/>
+            <paletteEntry value="9" color="#d5b483" alpha="255" label="33_2"/>
+            <paletteEntry value="10" color="#029400" alpha="255" label="411"/>
+            <paletteEntry value="11" color="#029400" alpha="255" label="411_2"/>
+            <paletteEntry value="12" color="#ffffff" alpha="255" label="5113"/>
+            <paletteEntry value="13" color="#adeab6" alpha="255" label="5113_1"/>
+            <paletteEntry value="14" color="#8ad77a" alpha="255" label="5113_2"/>
+            <paletteEntry value="15" color="#b9d37f" alpha="255" label="5113_3"/>
+            <paletteEntry value="16" color="#002ad3" alpha="255" label="5124"/>
+            <paletteEntry value="17" color="#9baee4" alpha="255" label="5124_2"/>
+            <paletteEntry value="18" color="#7707ff" alpha="255" label="5130"/>
+            <paletteEntry value="19" color="#ffffff" alpha="255" label="19"/>
           </colorPalette>
           <colorramp name="[source]" type="randomcolors"/>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation saturation="0" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" colorizeBlue="128" colorizeGreen="128" colorizeOn="0"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" geometry="Polygon" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+08" labelsEnabled="0" type="vector" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer maxScale="0" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>223230</xmin>
+        <ymin>3441690</ymin>
+        <xmax>346560</xmax>
+        <ymax>3584400</ymax>
+      </extent>
+      <id>class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e</id>
+      <datasource>./classification/class_160518.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>class_160518</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3121</srsid>
+          <srid>32637</srid>
+          <authid>EPSG:32637</authid>
+          <description>WGS 84 / UTM zone 37N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" minx="0" miny="0" minz="0" maxx="0" maxy="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="Vorgabe">
+        <map-layer-style name="Vorgabe"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer alphaBand="-1" band="1" opacity="1" type="paletted">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <colorPalette>
+            <paletteEntry value="1" color="#db0247" alpha="255" label="11"/>
+            <paletteEntry value="2" color="#7b7e7b" alpha="255" label="122"/>
+            <paletteEntry value="3" color="#000000" alpha="255" label="124"/>
+            <paletteEntry value="4" color="#51ff48" alpha="255" label="141"/>
+            <paletteEntry value="5" color="#f1f430" alpha="255" label="2"/>
+            <paletteEntry value="6" color="#bd7d1c" alpha="255" label="32"/>
+            <paletteEntry value="7" color="#e1e8a0" alpha="255" label="33_1"/>
+            <paletteEntry value="8" color="#d5b483" alpha="255" label="33_2"/>
+            <paletteEntry value="9" color="#029400" alpha="255" label="411_1"/>
+            <paletteEntry value="10" color="#029400" alpha="255" label="411_2"/>
+            <paletteEntry value="11" color="#adeab6" alpha="255" label="5113_1"/>
+            <paletteEntry value="12" color="#8ad77a" alpha="255" label="5113_2"/>
+            <paletteEntry value="13" color="#b9d37f" alpha="255" label="5113_3"/>
+            <paletteEntry value="14" color="#002ad3" alpha="255" label="5124_1"/>
+            <paletteEntry value="15" color="#9baee4" alpha="255" label="5124_2"/>
+            <paletteEntry value="16" color="#7707ff" alpha="255" label="5130"/>
+          </colorPalette>
+          <colorramp name="[source]" type="randomcolors"/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" minScale="1e+08" autoRefreshEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyLocal="1" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1">
       <extent>
         <xmin>223408.9471880471392069</xmin>
         <ymin>3442428.06062940880656242</ymin>
@@ -318,10 +443,10 @@
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
-            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="248,188,68,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -335,9 +460,9 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -346,7 +471,11 @@
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties/>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
@@ -367,8 +496,8 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="id" name="" index="0"/>
-        <alias field="CLC" name="" index="1"/>
+        <alias field="id" index="0" name=""/>
+        <alias field="CLC" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -377,24 +506,24 @@
         <default applyOnUpdate="0" field="CLC" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="0" notnull_strength="0" field="id" exp_strength="0" unique_strength="0"/>
-        <constraint constraints="0" notnull_strength="0" field="CLC" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" field="id" unique_strength="0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="CLC" unique_strength="0" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" field="id" desc=""/>
-        <constraint exp="" field="CLC" desc=""/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="CLC" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;CLC&quot;" sortOrder="0">
+      <attributetableconfig sortOrder="0" sortExpression="&quot;CLC&quot;" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" hidden="0" width="-1" type="field"/>
-          <column name="CLC" hidden="0" width="-1" type="field"/>
-          <column hidden="1" width="-1" type="actions"/>
+          <column width="-1" hidden="0" name="id" type="field"/>
+          <column width="-1" hidden="0" name="CLC" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath></editforminitfilepath>
@@ -416,30 +545,9 @@
   <layerorder>
     <layer id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6"/>
     <layer id="class_150518_cadb6330_af9b_465a_bd3d_de86154c562e"/>
+    <layer id="class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e"/>
   </layerorder>
   <properties>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
-    <Gui>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-    </Gui>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <SpatialRefSys>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <Measurement>
-      <AreaUnits type="QString"></AreaUnits>
-      <DistanceUnits type="QString"></DistanceUnits>
-    </Measurement>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
@@ -447,6 +555,39 @@
       <Automatic type="bool">true</Automatic>
       <DecimalPlaces type="int">2</DecimalPlaces>
     </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+    </PAL>
   </properties>
   <visibility-presets/>
   <transformContext/>
