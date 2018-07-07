@@ -1,5 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.0.3-Girona">
+<qgis projectname="" version="3.2.0-Bonn">
+  <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -18,34 +19,37 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer id="class_050618_ec4e8d00_225b_4f5a_b398_9cf4bf263911" expanded="0" providerKey="gdal" name="class_050618" source="../../../classification/class_050618.tif" checked="Qt::Checked">
+    <layer-tree-layer source="./classification/class_aggregated.tif" providerKey="gdal" expanded="0" id="class_aggregated_b0e1ec94_0cba_46eb_b720_ad0799712880" name="class_aggregated" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37" expanded="1" providerKey="ogr" name="training_data_cropped" source="./shapefiles/training_data_cropped.shp" checked="Qt::Checked">
+    <layer-tree-layer source="../../../classification/class_050618.tif" providerKey="gdal" expanded="0" id="class_050618_ec4e8d00_225b_4f5a_b398_9cf4bf263911" name="class_050618" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_040618_d16df2ec_64f4_465a_a12f_503baa762ca6" expanded="0" providerKey="gdal" name="class_040618" source="./classification/class_040618.tif" checked="Qt::Checked">
+    <layer-tree-layer source="./shapefiles/training_data_cropped.shp" providerKey="ogr" expanded="1" id="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37" name="training_data_cropped" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_220518_mod_60fe5103_d21f_4370_99c9_2a0e2ebe84d1" expanded="0" providerKey="gdal" name="class_220518_mod" source="../../../classification/class_220518_mod.tif" checked="Qt::Unchecked">
+    <layer-tree-layer source="./classification/class_040618.tif" providerKey="gdal" expanded="0" id="class_040618_d16df2ec_64f4_465a_a12f_503baa762ca6" name="class_040618" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_220518_fd4b24a5_6ab5_45a1_af4a_de25312fed8d" expanded="0" providerKey="gdal" name="class_220518" source="../../../classification/class_220518.tif" checked="Qt::Unchecked">
+    <layer-tree-layer source="../../../classification/class_220518_mod.tif" providerKey="gdal" expanded="0" id="class_220518_mod_60fe5103_d21f_4370_99c9_2a0e2ebe84d1" name="class_220518_mod" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_180518_2_a4970c5a_2a2c_4270_8b02_2ceac544db2d" expanded="0" providerKey="gdal" name="class_180518_2" source="./classification/class_180518_2.tif" checked="Qt::Unchecked">
+    <layer-tree-layer source="../../../classification/class_220518.tif" providerKey="gdal" expanded="0" id="class_220518_fd4b24a5_6ab5_45a1_af4a_de25312fed8d" name="class_220518" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_180518_29415a7d_f281_4684_8cab_de3d773ef3cd" expanded="0" providerKey="gdal" name="class_180518" source="./classification/class_180518.tif" checked="Qt::Unchecked">
+    <layer-tree-layer source="./classification/class_180518_2.tif" providerKey="gdal" expanded="0" id="class_180518_2_a4970c5a_2a2c_4270_8b02_2ceac544db2d" name="class_180518_2" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" expanded="1" providerKey="ogr" name="training_data_git" source="./shapefiles/training_data_git.shp" checked="Qt::Unchecked">
+    <layer-tree-layer source="./classification/class_180518.tif" providerKey="gdal" expanded="0" id="class_180518_29415a7d_f281_4684_8cab_de3d773ef3cd" name="class_180518" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_170518_017772c7_a4b9_40d0_a56f_2708018af044" expanded="0" providerKey="gdal" name="class_170518" source="./classification/class_170518.tif" checked="Qt::Unchecked">
+    <layer-tree-layer source="./shapefiles/training_data_git.shp" providerKey="ogr" expanded="1" id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" name="training_data_git" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e" expanded="0" providerKey="gdal" name="class_160518" source="./classification/class_160518.tif" checked="Qt::Unchecked">
+    <layer-tree-layer source="./classification/class_170518.tif" providerKey="gdal" expanded="0" id="class_170518_017772c7_a4b9_40d0_a56f_2708018af044" name="class_170518" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./classification/class_160518.tif" providerKey="gdal" expanded="0" id="class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e" name="class_160518" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -59,12 +63,13 @@
       <item>class_040618_d16df2ec_64f4_465a_a12f_503baa762ca6</item>
       <item>training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37</item>
       <item>class_050618_ec4e8d00_225b_4f5a_b398_9cf4bf263911</item>
+      <item>class_aggregated_b0e1ec94_0cba_46eb_b720_ad0799712880</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" intersection-snapping="0" type="1" tolerance="12" enabled="0" mode="2">
+  <snapping-settings unit="1" mode="2" tolerance="12" enabled="0" type="1" intersection-snapping="0">
     <individual-layer-settings>
-      <layer-setting id="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37" type="1" tolerance="12" units="1" enabled="0"/>
-      <layer-setting id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6" type="1" tolerance="12" units="1" enabled="1"/>
+      <layer-setting tolerance="12" units="1" enabled="0" type="1" id="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37"/>
+      <layer-setting tolerance="12" units="1" enabled="1" type="1" id="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -92,52 +97,57 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer open="false" drawingOrder="-1" name="class_050618" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_aggregated" checked="Qt::Checked">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="class_050618_ec4e8d00_225b_4f5a_b398_9cf4bf263911"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="class_aggregated_b0e1ec94_0cba_46eb_b720_ad0799712880"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" drawingOrder="-1" name="training_data_cropped" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_050618" checked="Qt::Unchecked">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="class_050618_ec4e8d00_225b_4f5a_b398_9cf4bf263911"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="training_data_cropped" checked="Qt::Unchecked">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_040618" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_040618" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="class_040618_d16df2ec_64f4_465a_a12f_503baa762ca6"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="class_040618_d16df2ec_64f4_465a_a12f_503baa762ca6"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_220518_mod" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_220518_mod" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="class_220518_mod_60fe5103_d21f_4370_99c9_2a0e2ebe84d1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_220518" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_220518" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="class_220518_fd4b24a5_6ab5_45a1_af4a_de25312fed8d"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_180518_2" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_180518_2" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="class_180518_2_a4970c5a_2a2c_4270_8b02_2ceac544db2d"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_180518" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_180518" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="class_180518_29415a7d_f281_4684_8cab_de3d773ef3cd"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" drawingOrder="-1" name="training_data_git" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="training_data_git" checked="Qt::Unchecked">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="training_data_git_50bf5961_c0a4_437b_84d0_e6214e824bb6"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_170518" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_170518" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="class_170518_017772c7_a4b9_40d0_a56f_2708018af044"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" drawingOrder="-1" name="class_160518" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" open="false" drawingOrder="-1" name="class_160518" checked="Qt::Unchecked">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="class_160518_a5368b09_c6db_43bb_a8d5_7a07248a789e"/>
       </filegroup>
@@ -214,7 +224,7 @@
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
   <projectlayers>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>274320</xmin>
         <ymin>3495600</ymin>
@@ -246,6 +256,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -257,11 +277,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -269,16 +289,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -288,13 +298,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -305,27 +315,27 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="1"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="2"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="3"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32_1" value="4"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="5"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="6"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="7"/>
-            <paletteEntry alpha="255" color="#029400" label="411_1" value="8"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="9"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="10"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="11"/>
-            <paletteEntry alpha="255" color="#faf3d4" label="5124_3" value="12"/>
+            <paletteEntry label="122" value="1" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="2" color="#000000" alpha="255"/>
+            <paletteEntry label="2" value="3" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32_1" value="4" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="5" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="6" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="7" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_1" value="8" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_3" value="9" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="10" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="11" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5124_3" value="12" color="#faf3d4" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>274320</xmin>
         <ymin>3495600</ymin>
@@ -357,6 +367,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -372,7 +392,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -380,16 +400,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -399,13 +409,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -416,29 +426,28 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="4"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32_1" value="5"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="6"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="7"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="8"/>
-            <paletteEntry alpha="255" color="#029400" label="411_1" value="9"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="10"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="11"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="12"/>
-            <paletteEntry alpha="255" color="#faf3d4" label="5124_3" value="13"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="2" value="4" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32_1" value="5" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="6" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="7" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="8" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_1" value="9" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_3" value="10" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="11" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="12" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5124_3" value="13" color="#faf3d4" alpha="255"/>
           </colorPalette>
-          <colorramp type="randomcolors" name="[source]"/>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -470,6 +479,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -485,7 +504,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -493,16 +512,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -512,13 +521,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -529,31 +538,31 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#51ff48" label="141" value="4"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="5"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32" value="6"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="7"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="8"/>
-            <paletteEntry alpha="255" color="#029400" label="411_1" value="9"/>
-            <paletteEntry alpha="255" color="#d5b483" label="411_2" value="10"/>
-            <paletteEntry alpha="255" color="#adeab6" label="5113_1" value="11"/>
-            <paletteEntry alpha="255" color="#8ad77a" label="5113_2" value="12"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="13"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="14"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="15"/>
-            <paletteEntry alpha="255" color="#7707ff" label="5130" value="16"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="141" value="4" color="#51ff48" alpha="255"/>
+            <paletteEntry label="2" value="5" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32" value="6" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="7" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="8" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_1" value="9" color="#029400" alpha="255"/>
+            <paletteEntry label="411_2" value="10" color="#d5b483" alpha="255"/>
+            <paletteEntry label="5113_1" value="11" color="#adeab6" alpha="255"/>
+            <paletteEntry label="5113_2" value="12" color="#8ad77a" alpha="255"/>
+            <paletteEntry label="5113_3" value="13" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="14" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="15" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5130" value="16" color="#7707ff" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -585,6 +594,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -600,7 +619,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -608,16 +627,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -627,13 +636,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -644,32 +653,32 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#51ff48" label="141" value="4"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="5"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32" value="6"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="7"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="8"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="9"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_6" value="10"/>
-            <paletteEntry alpha="255" color="#029400" label="411_2" value="11"/>
-            <paletteEntry alpha="255" color="#adeab6" label="5113_1" value="12"/>
-            <paletteEntry alpha="255" color="#8ad77a" label="5113_2" value="13"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="14"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="15"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="16"/>
-            <paletteEntry alpha="255" color="#7707ff" label="5130" value="17"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="141" value="4" color="#51ff48" alpha="255"/>
+            <paletteEntry label="2" value="5" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32" value="6" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="7" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="8" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="9" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_6" value="10" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_2" value="11" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_1" value="12" color="#adeab6" alpha="255"/>
+            <paletteEntry label="5113_2" value="13" color="#8ad77a" alpha="255"/>
+            <paletteEntry label="5113_3" value="14" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="15" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="16" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5130" value="17" color="#7707ff" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -701,6 +710,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -716,7 +735,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -724,16 +743,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -743,13 +752,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -760,33 +769,33 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#51ff48" label="141" value="4"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="5"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32" value="6"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="7"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="8"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="9"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_4" value="10"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_6" value="11"/>
-            <paletteEntry alpha="255" color="#029400" label="411_2" value="12"/>
-            <paletteEntry alpha="255" color="#adeab6" label="5113_1" value="13"/>
-            <paletteEntry alpha="255" color="#8ad77a" label="5113_2" value="14"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="15"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="16"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="17"/>
-            <paletteEntry alpha="255" color="#7707ff" label="5130" value="18"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="141" value="4" color="#51ff48" alpha="255"/>
+            <paletteEntry label="2" value="5" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32" value="6" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="7" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="8" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="9" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_4" value="10" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_6" value="11" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_2" value="12" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_1" value="13" color="#adeab6" alpha="255"/>
+            <paletteEntry label="5113_2" value="14" color="#8ad77a" alpha="255"/>
+            <paletteEntry label="5113_3" value="15" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="16" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="17" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5130" value="18" color="#7707ff" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -818,6 +827,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -833,7 +852,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -841,16 +860,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -860,13 +869,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -877,34 +886,34 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#51ff48" label="141" value="4"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="5"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32" value="6"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="7"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="8"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="9"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_4" value="10"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_5" value="11"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_6" value="12"/>
-            <paletteEntry alpha="255" color="#029400" label="411_2" value="13"/>
-            <paletteEntry alpha="255" color="#adeab6" label="5113_1" value="14"/>
-            <paletteEntry alpha="255" color="#8ad77a" label="5113_2" value="15"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="16"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="17"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="18"/>
-            <paletteEntry alpha="255" color="#7707ff" label="5130" value="19"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="141" value="4" color="#51ff48" alpha="255"/>
+            <paletteEntry label="2" value="5" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32" value="6" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="7" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="8" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="9" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_4" value="10" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_5" value="11" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_6" value="12" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_2" value="13" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_1" value="14" color="#adeab6" alpha="255"/>
+            <paletteEntry label="5113_2" value="15" color="#8ad77a" alpha="255"/>
+            <paletteEntry label="5113_3" value="16" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="17" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="18" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5130" value="19" color="#7707ff" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -936,6 +945,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -951,7 +970,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -959,16 +978,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -978,13 +987,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -995,37 +1004,37 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#7d4da9" label="13" value="4"/>
-            <paletteEntry alpha="255" color="#51ff48" label="141" value="5"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="6"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32_1" value="7"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32_2" value="8"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="9"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="10"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="11"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_4" value="12"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_5" value="13"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_6" value="14"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_7" value="15"/>
-            <paletteEntry alpha="255" color="#029400" label="411_1" value="16"/>
-            <paletteEntry alpha="255" color="#adeab6" label="5113_1" value="17"/>
-            <paletteEntry alpha="255" color="#8ad77a" label="5113_2" value="18"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="19"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="20"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="21"/>
-            <paletteEntry alpha="255" color="#7707ff" label="5130" value="22"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="13" value="4" color="#7d4da9" alpha="255"/>
+            <paletteEntry label="141" value="5" color="#51ff48" alpha="255"/>
+            <paletteEntry label="2" value="6" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32_1" value="7" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="32_2" value="8" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="9" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="10" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="11" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_4" value="12" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_5" value="13" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_6" value="14" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_7" value="15" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_1" value="16" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_1" value="17" color="#adeab6" alpha="255"/>
+            <paletteEntry label="5113_2" value="18" color="#8ad77a" alpha="255"/>
+            <paletteEntry label="5113_3" value="19" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="20" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="21" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5130" value="22" color="#7707ff" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" type="raster" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>223230</xmin>
         <ymin>3441690</ymin>
@@ -1057,6 +1066,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -1072,7 +1091,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial miny="0" maxy="0" dimensions="2" minz="0" minx="0" maxz="0" crs="" maxx="0"/>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1080,16 +1099,6 @@
             </period>
           </temporal>
         </extent>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
-        <links/>
       </resourceMetadata>
       <customproperties>
         <property key="WMSBackgroundLayer" value="false"/>
@@ -1099,13 +1108,13 @@
       </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList useSrcNoData="1" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer alphaBand="-1" type="paletted" band="1" opacity="1">
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1116,37 +1125,143 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <colorPalette>
-            <paletteEntry alpha="255" color="#db0247" label="11" value="1"/>
-            <paletteEntry alpha="255" color="#7b7e7b" label="122" value="2"/>
-            <paletteEntry alpha="255" color="#000000" label="124" value="3"/>
-            <paletteEntry alpha="255" color="#7d4da9" label="13" value="4"/>
-            <paletteEntry alpha="255" color="#51ff48" label="141" value="5"/>
-            <paletteEntry alpha="255" color="#f1f430" label="2" value="6"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32_1" value="7"/>
-            <paletteEntry alpha="255" color="#bd7d1c" label="32_2" value="8"/>
-            <paletteEntry alpha="255" color="#e1e8a0" label="33_1" value="9"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_2" value="10"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_3" value="11"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_4" value="12"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_5" value="13"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_6" value="14"/>
-            <paletteEntry alpha="255" color="#d5b483" label="33_7" value="15"/>
-            <paletteEntry alpha="255" color="#029400" label="411_1" value="16"/>
-            <paletteEntry alpha="255" color="#adeab6" label="5113_1" value="17"/>
-            <paletteEntry alpha="255" color="#8ad77a" label="5113_2" value="18"/>
-            <paletteEntry alpha="255" color="#b9d37f" label="5113_3" value="19"/>
-            <paletteEntry alpha="255" color="#002ad3" label="5124_1" value="20"/>
-            <paletteEntry alpha="255" color="#9baee4" label="5124_2" value="21"/>
-            <paletteEntry alpha="255" color="#7707ff" label="5130" value="22"/>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="122" value="2" color="#7b7e7b" alpha="255"/>
+            <paletteEntry label="124" value="3" color="#000000" alpha="255"/>
+            <paletteEntry label="13" value="4" color="#7d4da9" alpha="255"/>
+            <paletteEntry label="141" value="5" color="#51ff48" alpha="255"/>
+            <paletteEntry label="2" value="6" color="#f1f430" alpha="255"/>
+            <paletteEntry label="32_1" value="7" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="32_2" value="8" color="#bd7d1c" alpha="255"/>
+            <paletteEntry label="33_1" value="9" color="#e1e8a0" alpha="255"/>
+            <paletteEntry label="33_2" value="10" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_3" value="11" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_4" value="12" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_5" value="13" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_6" value="14" color="#d5b483" alpha="255"/>
+            <paletteEntry label="33_7" value="15" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411_1" value="16" color="#029400" alpha="255"/>
+            <paletteEntry label="5113_1" value="17" color="#adeab6" alpha="255"/>
+            <paletteEntry label="5113_2" value="18" color="#8ad77a" alpha="255"/>
+            <paletteEntry label="5113_3" value="19" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124_1" value="20" color="#002ad3" alpha="255"/>
+            <paletteEntry label="5124_2" value="21" color="#9baee4" alpha="255"/>
+            <paletteEntry label="5130" value="22" color="#7707ff" alpha="255"/>
           </colorPalette>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" colorizeStrength="100"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Polygon" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1">
+    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>274320</xmin>
+        <ymin>3495600</ymin>
+        <xmax>320610</xmax>
+        <ymax>3548910</ymax>
+      </extent>
+      <id>class_aggregated_b0e1ec94_0cba_46eb_b720_ad0799712880</id>
+      <datasource>./classification/class_aggregated.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>class_aggregated</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3121</srsid>
+          <srid>32637</srid>
+          <authid>EPSG:32637</authid>
+          <description>WGS 84 / UTM zone 37N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" crs="" maxy="0" maxx="0" maxz="0" dimensions="2" minx="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="Vorgabe">
+        <map-layer-style name="Vorgabe"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer band="1" opacity="1" type="paletted" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <colorPalette>
+            <paletteEntry label="11" value="1" color="#db0247" alpha="255"/>
+            <paletteEntry label="2" value="2" color="#f1f430" alpha="255"/>
+            <paletteEntry label="33" value="3" color="#d5b483" alpha="255"/>
+            <paletteEntry label="411" value="4" color="#029400" alpha="255"/>
+            <paletteEntry label="5113" value="5" color="#b9d37f" alpha="255"/>
+            <paletteEntry label="5124" value="6" color="#002ad3" alpha="255"/>
+          </colorPalette>
+          <colorramp type="randomcolors" name="[source]"/>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeGreen="128" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyMessage="" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyLocal="1" minScale="1e+08" simplifyDrawingHints="1" type="vector" labelsEnabled="0" maxScale="0" geometry="Polygon" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0">
       <extent>
         <xmin>275934.45141292223706841</xmin>
         <ymin>3496409.58456867886707187</ymin>
@@ -1178,6 +1293,7 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -1193,21 +1309,21 @@
           </spatialrefsys>
         </crs>
         <extent/>
-        <links/>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
+      <legend type="default-vector"/>
       <expressionfields/>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
-            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="159,29,17,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1221,9 +1337,9 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1253,18 +1369,18 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="CLC"/>
-        <alias name="" index="1" field="WDPAID"/>
+        <alias field="CLC" index="0" name=""/>
+        <alias field="WDPAID" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="CLC"/>
-        <default expression="" applyOnUpdate="0" field="WDPAID"/>
+        <default field="CLC" expression="" applyOnUpdate="0"/>
+        <default field="WDPAID" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="CLC"/>
-        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="WDPAID"/>
+        <constraint exp_strength="0" field="CLC" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint exp_strength="0" field="WDPAID" unique_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="CLC"/>
@@ -1294,7 +1410,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" geometry="Polygon" simplifyDrawingTol="1" readOnly="0" simplifyDrawingHints="1" minScale="1e+08" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1">
+    <maplayer refreshOnNotifyMessage="" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyLocal="1" minScale="1e+08" simplifyDrawingHints="1" type="vector" labelsEnabled="0" maxScale="0" geometry="Polygon" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" readOnly="0">
       <extent>
         <xmin>223401.41044038377003744</xmin>
         <ymin>3441740.04928745375946164</ymin>
@@ -1326,6 +1442,7 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -1341,21 +1458,21 @@
           </spatialrefsys>
         </crs>
         <extent/>
-        <links/>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
+      <legend type="default-vector"/>
       <expressionfields/>
       <map-layer-style-manager current="Vorgabe">
         <map-layer-style name="Vorgabe"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
-            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+          <symbol clip_to_extent="1" type="fill" name="0" alpha="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="248,188,68,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1369,9 +1486,9 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1403,18 +1520,18 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="id"/>
-        <alias name="" index="1" field="CLC"/>
+        <alias field="id" index="0" name=""/>
+        <alias field="CLC" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="id"/>
-        <default expression="" applyOnUpdate="0" field="CLC"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="CLC" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="id"/>
-        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="CLC"/>
+        <constraint exp_strength="0" field="id" unique_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint exp_strength="0" field="CLC" unique_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="id"/>
@@ -1425,9 +1542,9 @@
       </attributeactions>
       <attributetableconfig sortExpression="&quot;CLC&quot;" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
-          <column type="field" name="id" hidden="0" width="-1"/>
-          <column type="field" name="CLC" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column type="field" width="-1" hidden="0" name="id"/>
+          <column type="field" width="-1" hidden="0" name="CLC"/>
+          <column type="actions" width="-1" hidden="1"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -1460,99 +1577,111 @@
     <layer id="class_040618_d16df2ec_64f4_465a_a12f_503baa762ca6"/>
     <layer id="training_data_cropped_bbfd4471_38b4_4819_a555_1edabed6df37"/>
     <layer id="class_050618_ec4e8d00_225b_4f5a_b398_9cf4bf263911"/>
+    <layer id="class_aggregated_b0e1ec94_0cba_46eb_b720_ad0799712880"/>
   </layerorder>
   <properties>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
-    <WMSFees type="QString">conditions unknown</WMSFees>
-    <Gui>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-    </Gui>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <WCSLayers type="QStringList"/>
-    <WMSPrecision type="QString">8</WMSPrecision>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
-    <WMSContactMail type="QString"></WMSContactMail>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <DefaultStyles>
-      <RandomColors type="bool">true</RandomColors>
-      <Opacity type="double">1</Opacity>
-      <Fill type="QString"></Fill>
-      <Marker type="QString"></Marker>
-      <Line type="QString"></Line>
-      <ColorRamp type="QString"></ColorRamp>
-    </DefaultStyles>
-    <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <WMSContactPosition type="QString"></WMSContactPosition>
-    <WMSUrl type="QString"></WMSUrl>
-    <PAL>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-      <SearchMethod type="int">0</SearchMethod>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-    </PAL>
-    <SpatialRefSys>
-      <ProjectCrs type="QString">EPSG:32637</ProjectCrs>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-      <ProjectCRSProj4String type="QString">+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
-      <ProjectCRSID type="int">3121</ProjectCRSID>
-    </SpatialRefSys>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
-    <WCSUrl type="QString"></WCSUrl>
     <WMSImageQuality type="int">90</WMSImageQuality>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <WFSUrl type="QString"></WFSUrl>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WFSLayers type="QStringList"/>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPosition type="QString"></WMSContactPosition>
     <WFSTLayers>
       <Update type="QStringList"/>
       <Insert type="QStringList"/>
       <Delete type="QStringList"/>
     </WFSTLayers>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">3121</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=37 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:32637</ProjectCrs>
+    </SpatialRefSys>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
     <PositionPrecision>
       <Automatic type="bool">true</Automatic>
-      <DecimalPlaces type="int">2</DecimalPlaces>
       <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
     </PositionPrecision>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSUrl type="QString"></WMSUrl>
+    <DefaultStyles>
+      <Marker type="QString"></Marker>
+      <Line type="QString"></Line>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+      <Fill type="QString"></Fill>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <Macros>
       <pythonCode type="QString"></pythonCode>
     </Macros>
-    <WFSLayers type="QStringList"/>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <Identify>
-      <disabledLayers type="QStringList"/>
-    </Identify>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WCSLayers type="QStringList"/>
+    <PAL>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+    </PAL>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
   </properties>
   <visibility-presets/>
   <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author></author>
+    <creation></creation>
+  </projectMetadata>
   <Annotations/>
   <Layouts/>
 </qgis>
